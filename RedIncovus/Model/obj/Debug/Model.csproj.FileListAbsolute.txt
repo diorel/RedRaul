@@ -1,0 +1,9 @@
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Model.dll
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Model.pdb
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Entity.dll
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Helper.dll
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Entity.pdb
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\bin\Debug\Helper.pdb
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\obj\Debug\Model.dll
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Model\obj\Debug\Model.pdb

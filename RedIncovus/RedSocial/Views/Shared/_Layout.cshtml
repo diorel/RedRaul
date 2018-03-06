@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/Assets/favicon.ico" />
+
+    <!-- META INFO -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Una Red Social Para Programadores" />
+    <meta name="generator" content="Hermes CMS" />
+
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/bootstrap-theme.min.css" rel="stylesheet" /> 
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/js/datepicker/css/datepicker.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+
+    <script>
+        function base_url(url)
+        {
+            return '@(Url.Content("~/"))' + url;
+        }
+        function redirect(href) {
+                window.location.href = '@(Url.Content("~/"))' + href;
+        }
+    </script>
+
+    <div class="container">
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="~/inicio">Mi Red Social</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/usuario/perfil">Modificar Mis Datos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/usuario/logout">Desconectarme</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        @RenderBody()
+    </div>
+    <hr />
+
+    <div class="text-center">Desarrollado por <b><a href="http://www.anexsoft.com" target="_blank">Anexsoft</a></b> a modo de enseñanza.</div>
+
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.form.js"></script>
+    <script src="~/Assets/js/ini.js"></script>
+    <script src="~/Assets/js/jquery.validate.min.js"></script>
+    <script src="~/Assets/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Assets/js/datepicker/js/bootstrap-datepicker.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
