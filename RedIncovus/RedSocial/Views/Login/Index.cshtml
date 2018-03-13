@@ -1,4 +1,5 @@
-﻿
+﻿@model  Entity.Usuario
+
 @{
     Layout = null;
 }
@@ -52,18 +53,31 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="well well-sm">
-                    <h2></h2>
-                    <form>
+                    <h2>Registrarme</h2>
+                    @using (Html.BeginForm("Registrar", "Login", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            @Html.ValidationMessageFor(model => model.Nombre)
+                            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control", placeholder = "Ingrese su nombre", maxlength = 20 })
+                        </div>
+                        <div class="form-group">
+                            <label>Apellido</label>
+                            @Html.ValidationMessageFor(model => model.Apellido)
+                            @Html.TextBoxFor(model => model.Apellido, new { @class = "form-control", placeholder = "Ingrese su apellido", maxlength = 50 })
+                        </div>
                         <div class="form-group">
                             <label>Correo</label>
-                            <input type="text" name="Correo" class="form-control" />
+                            @Html.ValidationMessageFor(model => model.Correo)
+                            @Html.TextBoxFor(model => model.Correo, new { @class = "form-control", placeholder = "Ingrese su correo", maxlength = 50 })
                         </div>
                         <div class="form-group">
                             <label>Contraseña</label>
-                            <input type="text" name="Nombre" class="form-control" />
+                            @Html.ValidationMessageFor(model => model.Contrasena)
+                            @Html.PasswordFor(model => model.Contrasena, new { @class = "form-control", placeholder = "Ingrese su contraseña", maxlength = 10 })
                         </div>
-                        <button type="submit" class="btn btn-dafault">Ingresar</button>
-                    </form>
+                        <button data-ajax="true" type="submit" class="btn btn-default">Registrar</button>
+                    }
                 </div>
             </div>
             <div class="col-md-7">

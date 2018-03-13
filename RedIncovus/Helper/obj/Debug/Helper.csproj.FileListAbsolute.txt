@@ -2,4 +2,3 @@ C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Helper\bin\Debug\Helper.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Helper\bin\Debug\Helper.pdb
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Helper\obj\Debug\Helper.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Helper\obj\Debug\Helper.pdb
-C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache

@@ -32,6 +32,7 @@ C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Ra
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Webpages.Deployment.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Webpages.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Webpages.Razor.dll
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\EntityFramework.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\Entity.pdb
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\Helper.pdb
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\Model.pdb
@@ -47,6 +48,7 @@ C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.We
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Webpages.Razor.xml
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Helpers.xml
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\System.Web.Mvc.xml
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\EntityFramework.xml
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\es\System.Web.Razor.resources.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\es\System.Web.Webpages.resources.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\RedSocial\bin\es\System.Web.Webpages.Deployment.resources.dll
