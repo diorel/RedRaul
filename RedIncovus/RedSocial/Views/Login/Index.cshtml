@@ -53,6 +53,23 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="well well-sm">
+                    <h2>Ingresar</h2>
+                    @using (Html.BeginForm("Acceder", "Login", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            <label>Correo</label>
+                            @Html.TextBoxFor(model => model.Correo, new { @class = "form-control", placeholder = "Ingrese su correo", maxlength = 50 })
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña</label>
+                            @Html.PasswordFor(model => model.Contrasena, new { @class = "form-control", placeholder = "Ingrese su contraseña", maxlength = 10 })
+                        </div>
+                        <button type="submit" class="btn btn-default" data-ajax="true">Ingresar</button>
+                    }
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="well well-sm">
                     <h2>Registrarme</h2>
                     @using (Html.BeginForm("Registrar", "Login", FormMethod.Post))
                     {
@@ -78,11 +95,6 @@
                         </div>
                         <button data-ajax="true" type="submit" class="btn btn-default">Registrar</button>
                     }
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="well well-sm">
-                    <h2>Registrarme</h2>
                 </div>
             </div>       
         </div>
