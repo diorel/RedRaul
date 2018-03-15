@@ -1,0 +1,40 @@
+RedSocial.Controllers.ErrorController 11:08:30
+Index - d:\Clases\RedSocial\Aplicativo\RedSocial\Views\Shared\_Layout.cshtml(16): error CS0103: El nombre 'Styles' no existe en el contexto actual
+
+Model.UsuarioModel 16:14:59
+Actualizar - El archivo a intentar a subir debe ser una imagen
+
+Model.UsuarioModel 17:04:41
+Obtener - La secuencia no contiene elementos
+
+RedSocial.Controllers.ErrorController 17:04:41
+Index - Referencia a objeto no establecida como instancia de un objeto.
+
+Model.UsuarioModel 17:04:42
+Obtener - La secuencia no contiene elementos
+
+RedSocial.Controllers.ErrorController 17:18:30
+Index - El diccionario de parámetros contiene una entrada NULL para el parámetro 'id' del tipo que no acepta valores NULL 'System.Int32' del método 'System.Web.Mvc.ActionResult Ver(Int32)' en 'RedSocial.Controllers.UsuarioController'. Un parámetro opcional debe ser un tipo de referencia, un tipo que acepte valores NULL o debe declararse como parámetro opcional.
+Nombre del parámetro: parameters
+
+Model.UsuarioModel 23:23:15
+Obtener - La secuencia no contiene elementos
+
+RedSocial.Controllers.ErrorController 23:23:15
+Index - Referencia a objeto no establecida como instancia de un objeto.
+
+Model.UsuarioModel 23:24:09
+Obtener - La secuencia no contiene elementos
+
+RedSocial.Controllers.ErrorController 23:24:09
+Index - Referencia a objeto no establecida como instancia de un objeto.
+
+Model.UsuarioModel 23:24:45
+Obtener - La secuencia no contiene elementos
+
+RedSocial.Controllers.ErrorController 23:24:45
+Index - Referencia a objeto no establecida como instancia de un objeto.
+
+RedSocial.Controllers.ErrorController 23:25:00
+Index - No se encuentra un método de acción público 'bill-gates-3' en el controlador 'RedSocial.Controllers.UsuarioController'.
+

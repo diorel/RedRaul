@@ -24,7 +24,7 @@ namespace RedSocial.Controllers
         }
 
         [OnlyAjaxRequestAttribute]
-        public PartialViewResult Publicaciones() 
+        public PartialViewResult Publicaciones()
         {
             ViewBag.Usuario_id = SessionHelper.GetUser();
             return PartialView(pm.Listar());

@@ -1,0 +1,6 @@
+Model.UsuarioModel 12:08:13
+RegistroDeLogin - No connection string named 'RedSocialContext' could be found in the application config file.
+
+Model.UsuarioModel 12:28:55
+RegistroDeLogin - No connection string named 'RedSocialContext' could be found in the application config file.
+

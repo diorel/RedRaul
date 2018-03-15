@@ -1,4 +1,5 @@
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Entity\bin\Debug\Entity.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Entity\bin\Debug\Entity.pdb
+C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Entity\obj\Debug\Entity.dll
 C:\Users\rcortes\Documents\GitHub\RedRaul\RedIncovus\Entity\obj\Debug\Entity.pdb

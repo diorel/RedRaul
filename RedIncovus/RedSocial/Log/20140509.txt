@@ -1,0 +1,28 @@
+RedSocial.Controllers.ErrorController 16:20:36
+Index - Se encontraron varios tipos que coinciden con el controlador 'usuario'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. Si este es el caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que tome un parámetro 'namespaces'.
+
+El solicitante de 'usuario' encontró los siguientes controladores coincidentes:
+RedSocial.Areas.Admin.Controllers.UsuarioController
+RedSocial.Controllers.UsuarioController
+
+RedSocial.Controllers.ErrorController 16:20:37
+Index - Se encontraron varios tipos que coinciden con el controlador 'usuario'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. Si este es el caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que tome un parámetro 'namespaces'.
+
+El solicitante de 'usuario' encontró los siguientes controladores coincidentes:
+RedSocial.Areas.Admin.Controllers.UsuarioController
+RedSocial.Controllers.UsuarioController
+
+RedSocial.Controllers.ErrorController 16:20:45
+Index - Se encontraron varios tipos que coinciden con el controlador 'Usuario'. Esto puede ocurrir si la ruta que atiende esta solicitud ('usuario/ver/{name}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. Si este es el caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que tome un parámetro 'namespaces'.
+
+El solicitante de 'Usuario' encontró los siguientes controladores coincidentes:
+RedSocial.Areas.Admin.Controllers.UsuarioController
+RedSocial.Controllers.UsuarioController
+
+RedSocial.Controllers.ErrorController 16:20:45
+Index - Se encontraron varios tipos que coinciden con el controlador 'Usuario'. Esto puede ocurrir si la ruta que atiende esta solicitud ('usuario/ver/{name}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. Si este es el caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que tome un parámetro 'namespaces'.
+
+El solicitante de 'Usuario' encontró los siguientes controladores coincidentes:
+RedSocial.Areas.Admin.Controllers.UsuarioController
+RedSocial.Controllers.UsuarioController
+

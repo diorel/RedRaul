@@ -1,0 +1,73 @@
+﻿@model List<Entity.Publicacion>
+    @{
+
+        int Usuario_id = ViewBag.Usuario_id;
+    }
+
+    <script>
+    $(document).ready(function () {
+        $("#Contenido").keyup(function (e) {
+            var obj = $(this);
+            if (e.keyCode == 13) {
+                if (obj.val().length > 5) {
+                    $.ajax({
+                        data: {
+                            Contenido: obj.val(),
+                            Para: @Usuario_id,
+                            De: @Helper.SessionHelper.GetUser()
+                        },
+                        url: base_url('usuario/publicar'),
+                        type: 'post',
+                        beforeSend: function () {
+                            obj.val('Su publicación esta siendo enviada, espere un momento ..');
+                            obj.attr('disabled', true);
+                        },
+                        success: function (r) {
+                            obj.attr('disabled', false);
+
+                            if (r.response) {
+                                obj.val('');
+                                CargarPublicaciones();
+                            }
+                            else alert(r.message);
+                        }
+                    });
+                }
+            }
+        })
+    })
+    </script>
+
+    <div class="form-group">
+        <input type="text" maxlength="300" placeholder="Escriba lo que estas pensando en este momento." autocomplete="off" class="form-control" id="Contenido" name="Contenido" />
+        <span class="help-block">Escriba lo que desea publicar y luego presione Enter.</span>
+    </div>
+
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div class="col-md-6">
+                <div class="well well-sm">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="thumbnail remove-margin-bottom">
+                                <a href="~/usuario/ver/@p.Emisor.Url">
+                                    <img src="~/Uploads/@p.Emisor.Foto.Foto2" alt="@p.Emisor.Nombre" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <b><a href="~/usuario/ver/@p.Emisor.Url">@p.Emisor.Nombre</a></b>: @ViewHelper.TimeAgo(p.FechaRegistro)
+                            <p class="remove-margin-bottom">
+                                @p.Contenido
+                                @if (p.Para != p.De)
+                                {
+                                    <i class="release">En el muro de <a href="~/usuario/ver/@p.Receptor.Url">@p.Receptor.Nombre @p.Receptor.Apellido</i>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
